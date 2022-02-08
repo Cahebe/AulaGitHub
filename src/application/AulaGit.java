@@ -12,7 +12,13 @@ public class AulaGit {
 		int horas = sc.nextInt();
 		sc.nextLine();
 		
-
+		if (horas < 12) {
+			System.out.println("Bom dia!");
+		}else if (horas < 18) {
+			System.out.println("Boa tarde!");
+		}else {
+			System.out.println("Boa noite!");
+		}
 		
 		
 		
