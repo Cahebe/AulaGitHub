@@ -20,6 +20,9 @@ public class AulaGit {
 			System.out.println("Boa noite!");
 		}
 		
+		System.out.println();
+		
+		System.out.println("Obrigado por usar o aplicativo!");
 		
 		
 		sc.close();
